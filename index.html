@@ -8,123 +8,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <span class="logo-text">SGS</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Logo centered at top -->
+    <div class="logo-container">
+        <img src="SGS logo zoom3.png" alt="Simone Greco Solutions" class="main-logo">
+    </div>
 
-    <section id="home" class="hero">
+    <!-- Introduction Subtitle -->
+    <div class="intro-section">
         <div class="container">
-            <h1 class="hero-title">Simone Greco Solutions</h1>
-            <p class="hero-subtitle">360 IT Consultancy from Field to Cloud</p>
-            <p class="hero-description">
-                Comprehensive technology solutions that bridge the gap between on-site operations 
-                and cloud infrastructure. Delivering end-to-end IT consultancy tailored to your business needs.
+            <p class="intro-text">
+                From real-estate field operations to cloud-native platforms, I design and deliver end-to-end solutions that connect physical assets with scalable digital systems. Grounded in hands-on property investment and management, and executed through senior-level IT consultancy.
             </p>
         </div>
-    </section>
+    </div>
 
-    <section id="services" class="services">
+    <!-- Three Tabs Section -->
+    <section class="tabs-section">
         <div class="container">
-            <h2 class="section-title">Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Real Estate Management Solutions</h3>
+            <div class="tabs-grid">
+                <!-- Tab 1: Real Estate Management -->
+                <div class="tab-card">
+                    <h2>Real Estate Management</h2>
                     <p>
                         Specialized technology solutions for real estate management, drawing from industry-leading 
                         practices and modern software architecture. Streamline operations, enhance tenant experiences, 
                         and optimize property management workflows.
                     </p>
-                    <p class="service-note">
-                        <em>Inspired by best practices from <a href="https://www.hminwestycje.pl" target="_blank" rel="noopener">HM Inwestycje</a></em>
-                    </p>
+                    <div class="tab-link">
+                        <a href="https://www.hminwestycje.pl" target="_blank" rel="noopener">HM Inwestycje →</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Software Development & Tech Leadership</h3>
+
+                <!-- Tab 2: Chronostack.dev -->
+                <div class="tab-card">
+                    <h2>Chronostack.dev</h2>
                     <p>
-                        Founder and Tech Lead of <a href="https://www.chronostack.dev" target="_blank" rel="noopener">Chronostack</a>, 
-                        delivering cutting-edge software solutions. Expertise in full-stack development, 
-                        system architecture, and technical strategy.
+                        Founder and Tech Lead of this SCRUM suite, that introduces a lean and fast approach to this framework within the software development cycles and resource management.
                     </p>
-                </div>
-                <div class="service-card">
-                    <h3>General IT Consultancy</h3>
                     <p>
-                        End-to-end IT consulting services covering infrastructure, cloud migration, 
-                        digital transformation, and technology strategy. From field operations to cloud deployment, 
-                        we provide comprehensive solutions.
+                        Leading development teams with modern architecture, technical strategy, and agile practices that drive exceptional results.
                     </p>
+                    <div class="tab-link">
+                        <a href="https://www.chronostack.dev" target="_blank" rel="noopener">chronostack.dev →</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Vibe Code Development</h3>
+
+                <!-- Tab 3: IT Consultancy -->
+                <div class="tab-card">
+                    <h2>IT Consultancy</h2>
                     <p>
-                        Innovative coding practices that combine technical excellence with creative problem-solving. 
-                        Building solutions that not only work but resonate with users and stakeholders.
+                        End-to-end IT consulting spanning IoT architecture and device management, domain acquisition and DNS configuration, and the design, deployment, and maintenance of websites and professional email systems. IoT implementations are addressed holistically, from hardware selection and field integration to cloud connectivity and security.
+                    </p>
+                    <p>
+                        Backed by solid experience in the automotive sector, I bring a systems-engineering mindset, strict process discipline, and real-world reliability standards to every solution, ensuring that digital platforms perform under operational constraints, not just in theory.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <!-- QR Code Section -->
+    <section class="qr-section">
         <div class="container">
-            <h2 class="section-title">About</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm Simone Greco, a technology professional dedicated to delivering comprehensive IT solutions 
-                        that span from on-site field operations to cloud infrastructure. As the founder and tech lead 
-                        of <a href="https://www.chronostack.dev" target="_blank" rel="noopener">Chronostack</a>, 
-                        I bring a unique perspective to software development and technical leadership.
-                    </p>
-                    <p>
-                        My approach to IT consultancy is holistic—understanding that modern businesses need solutions 
-                        that work seamlessly across physical and digital environments. Whether it's real estate management 
-                        systems, cloud architecture, or custom software development, I provide end-to-end guidance 
-                        that drives real business value.
-                    </p>
-                    <p>
-                        <strong>Mission:</strong> To bridge the gap between field operations and cloud technology, 
-                        delivering 360-degree consultancy that transforms how businesses operate and scale.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <p class="contact-intro">
-                    Ready to transform your technology infrastructure? Let's discuss how we can help 
-                    your business bridge the gap between field operations and cloud solutions.
-                </p>
-                <div class="contact-info">
-                    <a href="mailto:simone@grecosolutions.dev" class="contact-email">
-                        simone@grecosolutions.dev
-                    </a>
-                </div>
+            <div class="qr-container">
+                <img src="SGS QR.jpg" alt="QR Code - Simone Greco Solutions" class="qr-code">
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Simone Greco Solutions. All rights reserved.</p>
+            <div class="footer-left">
+                <p>&copy; 2024 Simone Greco Solutions. All rights reserved.</p>
+                <p class="footer-email">
+                    <a href="mailto:simone@grecosolutions.dev">simone@grecosolutions.dev</a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <p>NIP: 8943275602</p>
+                <p>REGON: 543505053</p>
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
